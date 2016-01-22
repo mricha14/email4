@@ -1,0 +1,111 @@
+/*Email4 Styles*/
+
+body {
+	color: #313131;
+	background: #efefef;
+}
+.wrapper {
+	width: 75%;
+	height: 1345px;
+	background: #f0e0ad;
+	opacity: 0.9;
+	margin: auto;
+}
+ul#social {
+	display: flex;
+	margin-left: 40%;
+	position: relative;
+	top: 15%;
+}
+ul#social li {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 5px;
+	opacity: 0.95;
+}
+div#optin-txt, input#email {
+	color: #fff;
+	width: 70%;
+	margin-left: 15%;
+}
+div#top-banner {
+	background-image: url("../img/book.jpg");
+	height: 495px;
+}
+div#logo {
+	font-size: 30pt;
+	color: #fff;
+	font-weight: bold;
+}
+div#feat-box {
+	background: #542733;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+div#bottom-banner, div.mid_box  {
+	height: 180px;
+	border: none;
+}
+div#bottom-banner {
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-right: 14px;
+}
+button#btn1 {
+	float: right;
+}
+img.midbox_pic {
+	height: 180px;
+	width: 180px;
+	padding-left: 0;
+	border-radius: 3%;
+}
+div.mid_box {
+	padding-right: 10px;
+}
+div.small_box {
+	height: 200px;
+	border: 1px solid black;
+	margin-right: ;
+}
+button.mid_btn {
+	float: right;
+}
+div#bottom_box1 {
+	background-image: url("../img/coffee.jpg");
+}
+div#bottom_box3 {
+	background-image: url("../img/oranges.jpg");
+}
+div#bottom_box2 {
+	background-image: url("../img/drink.jpg");
+}
+div.small_box_desc {
+	height: 50px;
+	background: #313131;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	top: 150px;
+	opacity: 0.8;
+}
+div#closing {
+	color: #fff;
+	height: 60px;
+	border: none;
+	background: #542733;
+	margin-bottom: -12px;
+	opacity: 0.8;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	font-size: 15pt;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
